@@ -1,0 +1,889 @@
+.navbar {
+    background-color: black;
+    width: 100%;
+    height: 20%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.nav-left {
+    font-family: sans-serif;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-input input {
+    width: 200px;
+    height: 32px;
+    padding: 0px 8px;
+    background: #0000;
+    vertical-align: middle;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-right {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-right a {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.nav-right button {
+    border-radius: 2px;
+    border: 1px solid #f64137;
+    font-size: .65em;
+    font-family: "DM Mono", monospace;
+    letter-spacing: .1em;
+    line-height: 1;
+    margin-inline-start: 0.5em;
+    margin-block-start: -0.1em;
+    padding: 0.2em 0.3em;
+    margin-right: 15px;
+    background-color: inherit;
+    color: #fff;
+}
+
+.ri-menu-2-line {
+    display: none;
+}
+
+.ri-search-line {
+    display: none;
+}
+
+
+
+@media (max-width:767px) {
+    .nav-right {
+        display: none;
+    }
+
+    .nav-left {
+        display: none;
+    }
+
+    .nav-logo {
+        width: inherit;
+    }
+
+    .ri-menu-2-line {
+        display: flex;
+        align-items: center;
+        font-size: 3.5vw;
+
+    }
+
+    .ri-search-line {
+        display: flex;
+        align-items: center;
+        font-size: 3.5vw;
+    }
+
+}
+
+.maincontent {
+    padding-top: 1vw;
+    background-image: url(images/nasa-bg-img-1.webp);
+    background-size: cover;
+    height: 50vw;
+    color: #fff;
+}
+
+.maincontent h2 {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 3vw;
+}
+
+.maincontent p {
+    font-family: sans-serif;
+    font-size: 1.25vw;
+}
+
+.maincontent button {
+    font-size: 22.8px;
+    background-color: #D83933;
+    padding: 12px 20px;
+    margin-top: 8px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.maincontent-text {
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
+@media (max-width:767px) {
+    .maincontent {
+        height: 65vw;
+
+    }
+
+    .maincontent h2 {
+
+        font-size: 5vw;
+    }
+
+    .maincontent p {
+
+        font-size: 2vw;
+    }
+
+    .maincontent button {
+        font-size: 2vw;
+    }
+
+    .maincontent-text {
+        margin-top: 80px;
+        margin-left: 50px;
+    }
+
+
+
+
+}
+
+/* CARDS */
+
+
+.cardheading {
+    font-family: sans-serif;
+    font-weight: 700;
+    margin: 0px 220px;
+
+
+}
+
+.cardheading p {
+    font-size: 2.5vw;
+
+}
+
+.cardheading span {
+
+    font-size: 1.5vw;
+    float: right;
+    margin-top: 10px;
+}
+
+.maincontent1 {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+/* car 1 */
+.crd1 {
+    background-image: url(images/ns-24-crew-capsule-landing.webp);
+    color: #fff;
+    width: 547px;
+    height: 400px;
+    margin: 24px 12px;
+    padding: 16px;
+    font-family: sans-serif;
+    background-size: cover;
+
+}
+
+.crd1 h3 {
+    padding-top: 30px;
+    font-family: "dm-mono";
+    font-style: normal;
+    font-weight: 500;
+    font-size: .7rem;
+    line-height: 1em;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+
+}
+
+.crd1 h2 {
+    padding-top: 240px;
+    font-family: "dm-mono";
+    font-style: normal;
+    font-weight: 500;
+    font-size: .7rem;
+    line-height: 1em;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+}
+
+.crd1 p {
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 1.05em;
+
+}
+
+/* card 2 */
+.crd2 {
+    background-image: url(images/jupitar.jpg);
+    color: #fff;
+    width: 270px;
+    height: 400px;
+    margin: 24px 12px;
+    padding: 16px;
+    font-family: sans-serif;
+    background-size: cover;
+}
+
+.crd2 h3 {
+    padding-top: 30px;
+    font-family: "dm-mono";
+    font-style: normal;
+    font-weight: 500;
+    font-size: .7rem;
+    line-height: 1em;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+}
+
+.crd2 h2 {
+    padding-top: 240px;
+    font-family: "dm-mono";
+    font-style: normal;
+    font-weight: 500;
+    font-size: .7rem;
+    line-height: 1em;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+}
+
+.crd2 p {
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 1.05em;
+}
+
+/* card 3 */
+
+.crd-left {
+    width: 265px;
+    height: 400px;
+}
+
+.crd3 {
+    background-image: url(images/green\ sky.webp);
+    color: #fff;
+    height: 192px;
+    margin: 24px 10px;
+    padding: 5px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    background-size: cover;
+}
+
+.crd3 h3 {
+    font-weight: 500;
+    font-size: .7rem;
+    line-height: 1em;
+}
+
+.crd3 h2 {
+    font-weight: 500;
+    font-size: .7rem;
+    line-height: 1em;
+}
+
+.crd3 p {
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 1.05em;
+}
+
+
+/* card 3 */
+
+.crd4 {
+    background-image: url(images/blue\ sky.webp);
+    color: #fff;
+    height: 192px;
+    margin: 24px 12px;
+    padding: 5px;
+
+    font-family: sans-serif;
+    background-size: cover;
+}
+
+.crd4 h3 {
+    padding-top: 20px;
+    font-family: "dm-mono";
+    font-style: normal;
+    font-weight: 500;
+    font-size: .7rem;
+    line-height: 1em;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+}
+
+.crd4 h2 {
+    font-family: "dm-mono";
+    font-style: normal;
+    font-weight: 500;
+    font-size: .7rem;
+    line-height: 1em;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+}
+
+.crd4 p {
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 1.05em;
+}
+
+
+
+
+.news {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 215px 0px 215px;
+
+}
+
+.news1 {
+    font-family: sans-serif;
+}
+
+.news1 img {
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+}
+
+.news1 h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: .7rem;
+    line-height: 1em;
+    letter-spacing: 3.5px;
+}
+
+.news1 p {
+    font-size: 1vw;
+    font-weight: 700;
+}
+
+.news1 h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: .7rem;
+    line-height: 1em;
+    letter-spacing: 3.5px;
+}
+
+.cardheading p span i {
+    background-color: #D83933;
+    color: #fff;
+    border-radius: 50%;
+    padding: 1px;
+}
+
+@media (max-width:767px) {
+
+    .cardheading {
+
+        width: 100%;
+        margin: 0px 0px;
+
+    }
+
+    .cardheading p {
+        font-size: 5vw;
+
+    }
+
+    .cardheading span {
+
+        font-size: 3vw;
+    }
+
+    .maincontent1 {
+        place-items: center;
+        flex-direction: column;
+
+    }
+
+    .crd2 {
+        background-image: url(images/jupitar\ 2.jpg);
+        width: 550px;
+        margin: 0px;
+    }
+
+    .crd-left {
+        margin: 20px;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .crd3 {
+        margin-top: 0px;
+    }
+
+
+    .crd4 {
+        margin-top: 0px;
+    }
+
+    .news {
+        margin: 0px;
+        display: block;
+
+    }
+
+    .news1 p {
+        font-size: 3vw;
+    }
+
+    .news1 h2 {
+        font-size: 2vw;
+    }
+
+    .news1 h3 {
+        font-size: 2vw;
+    }
+
+    .news1 h3 span {
+        font-size: 2vw;
+    }
+
+    .news1 img {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+
+
+
+
+
+
+
+.mainpage1 {
+    background-image: url(images/mainpage1.webp);
+    background-size: contain;
+    font-family: sans-serif;
+    color: #fff;
+    width: 95%;
+    height: 95vh;
+    padding: 66px 30px;
+}
+
+.mainpagetext {
+    padding-top: 11vw;
+}
+
+.mainpagetext h1 {
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+.mainpagetext p {
+    font-size: 1.5vw;
+    text-align: left;
+
+}
+
+.mainpagetext h2 {
+    font-size: 2vw;
+}
+
+.mainpagetext h2 i {
+    background-color: #D83933;
+    color: #fff;
+    border-radius: 50%;
+    padding: 1px;
+}
+
+@media (max-width:767px) {
+
+
+    .mainpage1 {
+        background-image: url(images/mainpage1.webp);
+        background-size: cover;
+
+    }
+
+    .mainpagetext {
+        padding-top: 20vw;
+    }
+
+    .mainpagetext h1 {
+        font-size: 7vw;
+    }
+
+    .mainpagetext p {
+        font-size: 3vw;
+
+    }
+
+    .mainpagetext h2 {
+        font-size: 4vw;
+    }
+}
+
+
+
+/* CARD.................2 */
+
+
+.maincontent2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+/* car 1 */
+.crd2 {
+    background-image: url(images/space\ station.webp);
+    color: #fff;
+    width: 547px;
+    height: 400px;
+    margin: 24px 12px;
+    padding: 16px;
+    font-family: sans-serif;
+    background-size: cover;
+}
+
+.crd2 h3 {
+    padding-top: 30px;
+    font-family: "dm-mono";
+    font-style: normal;
+    font-weight: 500;
+    font-size: .7rem;
+    line-height: 1em;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+}
+
+.crd2 h2 {
+    padding-top: 240px;
+    font-family: "dm-mono";
+    font-style: normal;
+    font-weight: 500;
+    font-size: .7rem;
+    line-height: 1em;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+}
+
+.crd2 p {
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 1.05em;
+}
+
+/* card 2 */
+.crd-4 {
+    background-image: url(images/polition\ 1.webp);
+    color: #fff;
+    width: 270px;
+    height: 400px;
+    margin: 24px 12px;
+    padding: 16px;
+    font-family: sans-serif;
+    background-size: cover;
+}
+
+.crd-4 h3 {
+    padding-top: 30px;
+    font-family: "dm-mono";
+    font-style: normal;
+    font-weight: 500;
+    font-size: .7rem;
+    line-height: 1em;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+}
+
+.crd-4 h2 {
+    padding-top: 240px;
+    font-family: "dm-mono";
+    font-style: normal;
+    font-weight: 500;
+    font-size: .7rem;
+    line-height: 1em;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+}
+
+.crd-4 p {
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 1.05em;
+}
+
+/* card 3 */
+
+.crd-left-2 {
+    width: 265px;
+    height: 400px;
+}
+
+.crd6 {
+    background-image: url(images/mars\ mission.webp);
+    color: #fff;
+    height: 192px;
+    margin: 24px 10px;
+    padding: 5px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    background-size: cover;
+}
+
+.crd6 h3 {
+    font-weight: 500;
+    font-size: .7rem;
+    line-height: 1em;
+}
+
+.crd6 h2 {
+    font-weight: 500;
+    font-size: .7rem;
+    line-height: 1em;
+}
+
+.crd6 p {
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 1.05em;
+}
+
+
+/* card 4 */
+
+.crd8 {
+    background-image: url(images/polition2.webp);
+    color: #fff;
+    height: 192px;
+    margin: 24px 12px;
+    padding: 5px;
+
+    font-family: sans-serif;
+    background-size: cover;
+}
+
+.crd8 h3 {
+    padding-top: 20px;
+    font-family: "dm-mono";
+    font-style: normal;
+    font-weight: 500;
+    font-size: .7rem;
+    line-height: 1em;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+}
+
+.crd8 h2 {
+    font-family: "dm-mono";
+    font-style: normal;
+    font-weight: 500;
+    font-size: .7rem;
+    line-height: 1em;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+}
+
+.crd8 p {
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 1.05em;
+}
+
+
+@media (max-width:767px) {
+
+    .maincontent2 {
+        place-items: center;
+        flex-direction: column;
+
+    }
+
+    .crd-4 {
+        width: 550px;
+        margin: 0px;
+    }
+
+    .crd-left-2 {
+        margin: 20px;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .crd6 {
+        margin-top: 0px;
+    }
+
+
+    .crd8 {
+        margin-top: 0px;
+    }
+}
+
+.mainpage2 {
+    background-image: url(images/webb-tarantula.webp);
+    background-size: contain;
+    font-family: sans-serif;
+    color: #fff;
+    width: 95%;
+    height: 95vh;
+    padding: 66px 30px;
+}
+
+.mainpagetext {
+    padding-top: 11vw;
+}
+
+.mainpagetext h1 {
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+.mainpagetext p {
+    font-size: 1.5vw;
+    text-align: left;
+
+}
+
+.mainpagetext h2 {
+    font-size: 2vw;
+}
+
+.mainpagetext h2 i {
+    background-color: #D83933;
+    color: #fff;
+    border-radius: 50%;
+    padding: 1px;
+}
+
+@media (max-width:767px) {
+
+
+    .mainpage2 {
+        background-image: url(images/webb-tarantula.webp);
+        background-size: cover;
+
+    }
+
+    .mainpagetext {
+        padding-top: 20vw;
+    }
+
+    .mainpagetext h1 {
+        font-size: 7vw;
+    }
+
+    .mainpagetext p {
+        font-size: 3vw;
+
+    }
+
+    .mainpagetext h2 {
+        font-size: 4vw;
+    }
+}
+
+/* FOOTER............... */
+.foter {
+    background-color: black;
+    color: #fff;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+.fot {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.footerlogo {
+    background-color: #0000;
+}
+
+.f1 {
+    font-size: 1.38rem;
+    line-height: 1.5;
+
+}
+
+.f1 h2 {
+    font-size: 22px;
+    margin: 22px 0px;
+}
+
+.f1 p {
+    font-size: 14px;
+    margin: 14px 0px;
+}
+
+.f1 h3 {
+    font-size: 18px;
+}
+
+.f1 h4 {
+    font-size: 14px;
+    padding: 8px 0px;
+
+}
+
+.f1 h4 i {
+    background-color: #D83933;
+    color: #fff;
+    border-radius: 50%;
+    padding: 1px;
+}
+
+
+.f2 ul{
+    list-style:none ;
+    line-height: 5vh;
+}
+
+.f2 i{
+    font-size: 2vw;
+}
+
+.f2 button{
+    border-radius: 2px;
+    border: 1px solid #f64137;
+    font-size: .65em;
+    font-family: "DM Mono", monospace;
+    letter-spacing: .1em;
+    line-height: 1;
+    margin-inline-start: 0.5em;
+    margin-block-start: -0.1em;
+    padding: 0.2em 0.3em;
+    margin-right: 15px;
+    background-color: inherit;
+    color: #fff;
+}
+
+
+
+ 
